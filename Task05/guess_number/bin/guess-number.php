@@ -8,6 +8,6 @@ if (file_exists($autoloadGit)) {
 } else {
     require_once($autoloadPackagist);
 }
-    use function makarovna\guess_number\Controller\startGame;
+    use function ma_karov\guess_number\Controller\startGame;
 
     startGame();

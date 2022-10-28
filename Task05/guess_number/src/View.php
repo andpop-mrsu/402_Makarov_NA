@@ -1,12 +1,12 @@
 <?php
 
-namespace makarovna\guess_number\View;
+namespace ma_karov\guess_number\View;
 
 use function cli\line;
 use function cli\prompt;
-use function makarovna\guess_number\Model\showGame;
-use function makarovna\guess_number\Model\commandHandler;
-use function makarovna\guess_number\Model\replayGame;
+use function ma_karov\guess_number\Model\showGame;
+use function ma_karov\guess_number\Model\commandHandler;
+use function ma_karov\guess_number\Model\replayGame;
 
 function MenuGame()
 {

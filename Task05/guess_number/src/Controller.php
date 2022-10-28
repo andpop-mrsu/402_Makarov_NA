@@ -1,10 +1,10 @@
 <?php
 
-namespace makarovna\guess_number\Controller;
+namespace ma_karov\guess_number\Controller;
 
-use function makarovna\guess_number\Model\setting;
-use function makarovna\guess_number\View\MenuGame;
-use function makarovna\guess_number\DB\openDatabase;
+use function ma_karov\guess_number\Model\setting;
+use function ma_karov\guess_number\View\MenuGame;
+use function ma_karov\guess_number\DB\openDatabase;
 
 function startGame()
 {
