@@ -1,12 +1,12 @@
 <?php
 
-namespace makarovna\guess_number\DB;
+namespace ma_karov\guess_number\DB;
 
 use \RedBeanPHP\R as R;
 
-use function makarovna\guess_number\View\showGamesInfo;
-use function makarovna\guess_number\View\showTurnInfo;
-use function makarovna\guess_number\View\showGamesTop;
+use function ma_karov\guess_number\View\showGamesInfo;
+use function ma_karov\guess_number\View\showTurnInfo;
+use function ma_karov\guess_number\View\showGamesTop;
 
 function createDB()
 {

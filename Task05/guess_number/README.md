@@ -69,7 +69,7 @@
 
 1. Установить composer, если он не установлен;
 2. Перейти в каталог, в который вы будете клонировать проект;
-3. Выполнить команду `composer require makarovna/guess-number`;
+3. Выполнить команду `composer require ma_karov/guess-number`;
 4. Перейти в каталог vendor/bin;
 5. Запустить файл guess-number.bat.
 
@@ -77,4 +77,4 @@
 
 ## Ссылки
 
-Packagist: <https://packagist.org/packages/makarovna/guess-number>
+Packagist: <https://packagist.org/packages/ma_karov/guess-number>

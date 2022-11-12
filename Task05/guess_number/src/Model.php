@@ -1,17 +1,17 @@
 <?php
 
-namespace makarovna\guess_number\Model;
+namespace ma_karov\guess_number\Model;
 
 use function cli\prompt;
-use function makarovna\guess_number\View\saySalute;
-use function makarovna\guess_number\View\endGame;
-use function makarovna\guess_number\View\MenuGame;
-use function makarovna\guess_number\DB\insertNewGame;
-use function makarovna\guess_number\DB\addAttemptInDB;
-use function makarovna\guess_number\DB\outputListGame;
-use function makarovna\guess_number\DB\updateInfoGame;
-use function makarovna\guess_number\DB\showTopList;
-use function makarovna\guess_number\DB\checkGameid;
+use function ma_karov\guess_number\View\saySalute;
+use function ma_karov\guess_number\View\endGame;
+use function ma_karov\guess_number\View\MenuGame;
+use function ma_karov\guess_number\DB\insertNewGame;
+use function ma_karov\guess_number\DB\addAttemptInDB;
+use function ma_karov\guess_number\DB\outputListGame;
+use function ma_karov\guess_number\DB\updateInfoGame;
+use function ma_karov\guess_number\DB\showTopList;
+use function ma_karov\guess_number\DB\checkGameid;
 
 function setting()
 {
